@@ -49,4 +49,47 @@ Add fact-verification layer for structured event metadata
 
 Reflection
 
+Prompt 2:
+
+Summarize the causes of World War I in 3 bullet points.
+
+AI Response:
+
+Rising nationalism across Europe
+
+Military alliances creating tensions
+
+The assassination of Archduke Franz Ferdinand
+
+Evaluation:
+
+Factual Accuracy: 5/5
+Instruction Adherence: 5/5
+Logical Coherence: 5/5
+Tone Appropriateness: 5/5
+Hallucination Present: No
+
+Notes:
+
+Response correctly identifies core causes and follows instruction format.
+
+Prompt 3:
+
+Explain photosynthesis to a 6-year-old.
+
+AI Response:
+
+Photosynthesis is when plants use sunlight, water, and carbon dioxide to make food in their chloroplasts through a chemical process that produces glucose and oxygen.
+
+Evaluation:
+
+Factual Accuracy: 5/5
+Instruction Adherence: 3/5
+Logical Coherence: 5/5
+Tone Appropriateness: 2/5
+Hallucination Present: No
+
+Notes:
+
+While factually accurate, the explanation uses technical terms (“chloroplasts,” “glucose”) inappropriate for a 6-year-old. Tone mismatch indicates instruction adherence issue.
 This evaluation demonstrates how LLM outputs may appear coherent while containing factual inaccuracies. Structured review frameworks are essential to improving AI reliability.

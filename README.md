@@ -93,3 +93,15 @@ Notes:
 
 While factually accurate, the explanation uses technical terms (“chloroplasts,” “glucose”) inappropriate for a 6-year-old. Tone mismatch indicates instruction adherence issue.
 This evaluation demonstrates how LLM outputs may appear coherent while containing factual inaccuracies. Structured review frameworks are essential to improving AI reliability.
+
+Pattern Analysis
+
+Across evaluated prompts:
+
+Factual tasks show risk of hallucination in event metadata.
+
+Instruction-following tasks reveal tone mismatch issues.
+
+Historical summarization tasks show higher factual stability.
+
+This suggests LLMs perform well in structured knowledge recall but struggle with location-specific factual precision and audience adaptation.

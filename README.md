@@ -105,3 +105,23 @@ Instruction-following tasks reveal tone mismatch issues.
 Historical summarization tasks show higher factual stability.
 
 This suggests LLMs perform well in structured knowledge recall but struggle with location-specific factual precision and audience adaptation.
+
+Error Distribution:
+
+Hallucinations: 1
+Tone Mismatch: 2
+Instruction Failures: 1
+Fully Correct Responses: 4
+
+import csv
+
+with open('evaluation_data.csv', newline='') as file:
+    reader = csv.DictReader(file)
+    hallucinations = 0
+    for row in reader:
+        if row['Hallucination'] == 'Yes':
+            hallucinations += 1
+
+print("Total hallucinations detected:", hallucinations)
+
+
